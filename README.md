@@ -9,5 +9,5 @@ https://github.com/ohstem-library/esp32-at-firmware
 ## How to use
 - Send Telegram Message
     ```
-    
+    bool SmsTelegram::send_message(const char *id , const char * token, const char * message);
     ```
